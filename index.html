@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>André | Portfólio Pessoal</title>
+    
+    <link rel="shortcut icon" href="./assets/FaviCon16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+
+    <!-- Cabeçalho: Logo e Menu -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">André<span>.dev</span></a>
+            
+            <!-- Botão do menu para celular -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Links de navegação e troca de cor (claro/escuro) -->
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar Tema Escuro/Claro">🌓</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Apresentação inicial -->
+        <section id="home" class="hero section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Bem-vindo.</h1>
+                    <p class="hero-subtitle">
+                        Meu nome é André Carlos, estudante de Ciência da Computação e desenvolvedor em formação, com foco na criação de interfaces limpas, bem estruturadas e experiências digitais intuitivas.
+                    </p>
+                </div>
+                
+                <div class="hero-image">
+                    <picture>
+                        <img width="500" height="500" src="./assets/Notebook.jpg" alt="Notebook">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- Texto sobre trajetória e interesses -->
+        <section id="sobre" class="section bg-secondary">
+            <div class="container section-grid">
+                <div class="section-text">
+                    <h2 class="section-title">Sobre mim</h2>
+                    <p>Olá! Meu nome é André, sou estudante de Ciência da Computação e entusiasta do desenvolvimento de soluções tecnológicas, sistemas inteligentes e inovação digital.</p>
+                    <p>Tenho interesse em desenvolvimento de software, arquitetura de sistemas e aprendizado contínuo voltado às áreas de tecnologia e computação. Busco constantemente aprimorar meus conhecimentos por meio de projetos práticos, estudo de novas tecnologias e acompanhamento das tendências do ecossistema tecnológico.</p>
+                    <p>Além da área técnica, também tenho interesse por games, filmes, músicas e idiomas, atividades que contribuem para minha criatividade, pensamento analítico e visão multidisciplinar na resolução de problemas.</p>
+                    <p>Atualmente, meu foco está no desenvolvimento de competências em programação, lógica computacional e construção de aplicações que unam tecnologia, usabilidade e impacto prático.</p>
+                </div>
+                <div class="section-img-wrapper">
+                    <img src="./assets/Sobre mim.jpg" alt="Foto de André" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Histórico escolar, cursos e habilidades -->
+        <section id="formacao" class="section">
+            <div class="container">
+                <h2 class="section-title">Formação</h2>
+                
+                <div class="formacao-grid">
+                    <!-- Onde estudei e certificados -->
+                    <div class="formacao-col">
+                        <div class="formacao-item">
+                            <h3>Bacharelado em Ciência da Computação</h3>
+                            <p class="instituicao">Centro Universitário Internacional Uninter</p>
+                            <p class="periodo">Abr/2025 — Atual • Cursando</p>
+                        </div>
+                        <div class="formacao-item">
+                            <h3>Ensino Médio Completo</h3>
+                            <p class="instituicao">Colégio Estadual Dr. Gabriel Carneiro Martins</p>
+                            <p class="periodo">Concluído em 2012</p>
+                        </div>
+                        
+                        <h3 class="sub-title mt-4">Certificações (2025)</h3>
+                        <ul class="cert-list">
+                            <li>Google IT Support Professional Certificate — Coursera</li>
+                            <li>Google Cybersecurity Professional Certificate — Coursera</li>
+                            <li>Google Prompting Essentials (IA) — Coursera</li>
+                        </ul>
+                    </div>
+
+                    <!-- Lista de tecnologias que utilizo -->
+                    <div class="formacao-col">
+                        <div class="img-wrapper mb-4">
+                            <img src="./assets/Formação.jpg" alt="Estudos e Formação" class="rounded-img">
+                        </div>
+                        
+                        <h3 class="sub-title">Competências Técnicas</h3>
+                        <div class="skills-tags">
+                            <span>Python</span><span>Java</span><span>HTML, CSS e JavaScript</span>
+                            <span>POO</span><span>Lógica de programação</span>
+                            <span>Estruturas condicionais e de repetição</span><span>Funções e modularização</span>
+                            <span>Tratamento de exceções</span><span>CRUD em memória</span>
+                            <span>Estruturas de dados</span><span>Encapsulamento, herança e polimorfismo</span>
+                            <span>Arquitetura modular</span><span>Desenvolvimento via terminal</span>
+                            <span>Eclipse IDE</span><span>Visual Studio Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exibição dos projetos principais -->
+        <section id="portfolio" class="section bg-secondary">
+            <div class="container">
+                <h2 class="section-title">Portfólio</h2>
+                
+                <div class="cards-grid">
+                    <!-- Projetos individuais -->
+                    <article class="card">
+                        <img src="./assets/Python_1200x800.jpg" alt="Projeto Terminal Python" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Sistemas em Python — Lógica e Terminal</h3>
+                            <p class="card-desc">Coleção de sistemas em Python via terminal com foco em lógica de programação, modularização, estruturas de dados, tratamento de exceções e simulação de sistemas comerciais e administrativos.</p>
+                            <span class="badge">Fundamentos em Python • Sem Repositório Público</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="./assets/Cofrinho_1200x800.jpg" alt="Cofrinho Virtual Java" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Cofrinho Virtual em Java</h3>
+                            <p class="card-desc">Sistema de cofrinho virtual em Java com foco em Programação Orientada a Objetos (POO), utilizando herança, abstração, polimorfismo e gerenciamento de moedas internacionais com ArrayList.</p>
+                            <a href="https://github.com/Acads94/TrabalhoCofrinho" target="_blank" class="card-link">Ver no GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="./assets/Quiz Interativo_1200x800.jpg" alt="Quiz Cibersegurança" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Quiz de Cibersegurança</h3>
+                            <p class="card-desc">Quiz interativo de conscientização em cibersegurança para pequenos comerciantes, desenvolvido com HTML, CSS e JavaScript, abordando golpes digitais, engenharia social e navegação segura.</p>
+                            <a href="https://github.com/Acads94/Quiz-eBook---Seguran-a-Digital-Descomplicada" target="_blank" class="card-link">Ver no GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Área para envio de e-mail -->
+        <section id="contato" class="section">
+            <div class="container form-container">
+                <h2 class="section-title">Contato</h2>
+                
+                <form id="contactForm" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@dominio.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Como posso ajudar?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Janela de aviso após o envio -->
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <h3 id="modalTitle">Sucesso</h3>
+            <p id="modalMessage">Mensagem enviada com sucesso!</p>
+            <button id="closeModal" class="btn-submit">Fechar</button>
+        </div>
+    </div>
+
+    <!-- Rodapé e créditos -->
+    <footer class="footer">
+        <p>&copy; 2026 André Carlos. Portfólio acadêmico e profissional.</p>
+    </footer>
+
+    <!-- Lógica de funcionamento (JavaScript) -->
+    <script src="script.js"></script>
+</body>
+</html>
