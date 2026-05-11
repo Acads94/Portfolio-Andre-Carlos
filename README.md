@@ -3,7 +3,7 @@ Este projeto consiste em um portfólio online desenvolvido como atividade práti
 
 Demonstração
 O site está publicado e pode ser acessado pelo link abaixo:
-https://acads94.github.io/Portfolio-Andre-Carlos/
+https://andrealvescs.github.io/Portfolio-Andre-Carlos/
 
 Tecnologias Utilizadas
 De acordo com os requisitos da atividade, foram utilizadas apenas tecnologias nativas:
